@@ -1,0 +1,157 @@
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 1, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 1, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 1, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 1, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 2, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 2, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 2, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 2, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 3, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 3, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 3, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 3, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 4, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 4, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 4, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (1, 4, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 1, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 1, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 1, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 1, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 2, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 2, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 2, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 2, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 3, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 3, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 3, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 3, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 4, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 4, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 4, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (2, 4, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 1, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 1, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 1, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 1, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 2, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 2, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 2, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 2, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 3, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 3, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 3, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 3, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 4, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 4, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 4, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (3, 4, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 1, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 1, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 1, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 1, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 2, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 2, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 2, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 2, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 3, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 3, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 3, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 3, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 4, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 4, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 4, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (4, 4, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 1, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 1, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 1, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 1, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 2, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 2, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 2, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 2, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 3, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 3, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 3, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 3, 4, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 4, 1, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 4, 2, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 4, 3, 0);
+insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 4, 4, 0);
+
+
+EXEC dbo.ADD_NEW_BOOK N'Воронкова', N'Любовь', N'Сын Зевса', N'Альфа', '2004';
+EXEC dbo.ADD_NEW_BOOK N'Воронкова', N'Любовь', N'Повести об Александре Македонском', N'Просвещение', '2005';
+EXEC dbo.ADD_NEW_BOOK N'Гаспаров', N'Михаил', N'Занимательная Греция', N'Альфа', '2006';
+EXEC dbo.ADD_NEW_BOOK N'Диккенс', N'Чарльз', N'История Англии для юных', N'Просвещение', '2007';
+EXEC dbo.ADD_NEW_BOOK N'Диккенс', N'Чарльз', N'История Англии для юных', N'Просвещение', '2008';
+EXEC dbo.ADD_NEW_BOOK N'Диккенс', N'Чарльз', N'История Англии для юных', N'Альфа', '2008';
+EXEC dbo.ADD_NEW_BOOK N'Жвалевский', N'Андрей', N'Время всегда хорошее', N'Просвещение', '2019';
+EXEC dbo.ADD_NEW_BOOK N'Пастернак', N'Евгения', N'Время всегда хорошее', N'Просвещение', '2019', null, 1;
+EXEC dbo.ADD_NEW_BOOK N'Кун', N'Николай', N'Легенды и мифы Древней Греции', N'Альфа', '2004';
+EXEC dbo.ADD_NEW_BOOK N'Лурье', N'Соломон', N'Письмо греческого мальчика', N'Просвещение', '2005';
+EXEC dbo.ADD_NEW_BOOK N'Лурье', N'Соломон', N'Заговорившие таблички', N'Просвещение', '2005';
+EXEC dbo.ADD_NEW_BOOK N'Матье', N'Милица', N'День египетского мальчика', N'Альфа', '2006';
+EXEC dbo.ADD_NEW_BOOK N'Рони-старший', N'Жозеф', N'Борьба за огонь', N'Просвещение', '2007';
+EXEC dbo.ADD_NEW_BOOK N'Рони-старший', N'Жозеф', N'Пещерный лев', N'Просвещение', '2007';
+EXEC dbo.ADD_NEW_BOOK N'Смирнова', N'Вера', N'Герои Эллады', N'Альфа', '2008';
+EXEC dbo.ADD_NEW_BOOK N'Твен', N'Марк', N'Янки из Коннектикута при дворе короля Артура', N'Просвещение', '2009';
+EXEC dbo.ADD_NEW_BOOK N'Твен', N'Марк', N'Приключение Тома Сойера', N'Просвещение', '2009';
+EXEC dbo.ADD_NEW_BOOK N'Успенский', N'Лев', N'Легенды и мифы Древней Греции', N'Альфа', '2010';
+EXEC dbo.ADD_NEW_BOOK N'Аромштам', N'Марина', N'Плащ Крысолова', N'Просвещение', '2011';
+EXEC dbo.ADD_NEW_BOOK N'Бессон', N'Люк', N'Артур и минипуты', N'Альфа', '2012';
+EXEC dbo.ADD_NEW_BOOK N'Булычев', N'Кир', N'Приключения Алисы', N'Просвещение', '2013';
+EXEC dbo.ADD_NEW_BOOK N'ДиКамилло', N'Кейт', N'Удивительные приключения кролика Эварда', N'Альфа', '2014';
+EXEC dbo.ADD_NEW_BOOK N'Киплинг', N'Редьярд', N'Пак с Волшебных холмов', N'Просвещение', '2015';
+EXEC dbo.ADD_NEW_BOOK N'Крюс', N'Джеймс', N'Тим Талер, или Проданный смех', N'Альфа', '2016';
+EXEC dbo.ADD_NEW_BOOK N'Кэрролл', N'Льюис', N'Алиса в стране чудес', N'Просвещение', '2017';
+EXEC dbo.ADD_NEW_BOOK N'Льюис', N'Клайв', N'Хроники Нарнии', N'Альфа', '2018';
+EXEC dbo.ADD_NEW_BOOK N'Пулман', N'Филип', N'Золотой компас', N'Просвещение', '2019';
+EXEC dbo.ADD_NEW_BOOK N'Толкин', N'Джон', N'Хоббит, или Туда и обратно', N'Просвещение', '2021';
+EXEC dbo.ADD_NEW_BOOK N'Функе', N'Корнелия', N'Чернильное сердце', N'Альфа', '2004';
+EXEC dbo.ADD_NEW_BOOK N'Чапек', N'Карел', N'Сказки и веселые истории', N'Просвещение', '2005';
+EXEC dbo.ADD_NEW_BOOK N'Энде', N'Михаэль', N'Момо', N'Альфа', '2006';
+EXEC dbo.ADD_NEW_BOOK N'Янссон', N'Туве', N'Все о Муми-троллях', N'Просвещение', '2007';
+EXEC dbo.ADD_NEW_BOOK N'Абгарян', N'Наринэ', N'Манюня', N'Альфа', '2008';
+EXEC dbo.ADD_NEW_BOOK N'Астафьев', N'Виктор', N'Васюткино озеро', N'Просвещение', '2009';
+EXEC dbo.ADD_NEW_BOOK N'Бернетт', N'Фрэнсис', N'Маленький лорд Фаунтлерой', N'Альфа', '2010';
+EXEC dbo.ADD_NEW_BOOK N'Будогоская', N'Лидия', N'Повесть о рыжей девочке', N'Альфа', '2012';
+EXEC dbo.ADD_NEW_BOOK N'Буссенар', N'Луи', N'Капитан Сорви-голова', N'Просвещение', '2013';
+EXEC dbo.ADD_NEW_BOOK N'Верн', N'Жюль', N'Дети капитана Гранта', N'Альфа', '2014';
+EXEC dbo.ADD_NEW_BOOK N'Гайдар', N'Аркадий', N'Судьба барабанщика', N'Просвещение', '2015';
+EXEC dbo.ADD_NEW_BOOK N'Галахова', N'Галина', N'Невозможный Кукушкин', N'Альфа', '2016';
+EXEC dbo.ADD_NEW_BOOK N'Мэйпс Додж', N'Мэри', N'Серебряные коньки', N'Просвещение', '2017';
+EXEC dbo.ADD_NEW_BOOK N'Дюма', N'Александр', N'Три мушкетёра', N'Альфа', '2018';
+EXEC dbo.ADD_NEW_BOOK N'Толстой', N'Алексей', N'Князь Серебряный', N'Альфа', '2012', N'Константинович';
+EXEC dbo.ADD_NEW_BOOK N'Стругацкий', N'Аркадий', N'Трудно быть богом', N'Просвещение', '2021';
+EXEC dbo.ADD_NEW_BOOK N'Стругацкий', N'Борис', N'Трудно быть богом', N'Просвещение', '2021', null, 1;
+EXEC dbo.ADD_NEW_BOOK N'Стругацкий', N'Аркадий', N'Понедельник начинается в субботу', N'Альфа', '2004';
+EXEC dbo.ADD_NEW_BOOK N'Стругацкий', N'Борис', N'Понедельник начинается в субботу', N'Альфа', '2004', null, 1;
+EXEC dbo.ADD_NEW_BOOK N'Уэллс', N'Герберт', N'Война миров', N'Просвещение', '2005';
+EXEC dbo.ADD_NEW_BOOK N'Айтматов', N'Чингиз', N'Белый пароход', N'Альфа', '2006';
+EXEC dbo.ADD_NEW_BOOK N'Белых', N'Григорий', N'Республика ШКИД', N'Просвещение', '2007';
+EXEC dbo.ADD_NEW_BOOK N'Пантелеев', N'Леонид', N'Республика ШКИД', N'Просвещение', '2007', null, 1;
+EXEC dbo.ADD_NEW_BOOK N'Бичер-Стоу', N'Гарриет', N'Хижина дяди Тома', N'Просвещение', '2009';
+EXEC dbo.ADD_NEW_BOOK N'Богомолов', N'Владимир', N'Иван', N'Альфа', '2010';
+EXEC dbo.ADD_NEW_BOOK N'Бойн', N'Джон', N'Мальчик в полосатой пижаме', N'Просвещение', '2011';
+EXEC dbo.ADD_NEW_BOOK N'Бронте', N'Шарлотта', N'Джейн Эйр', N'Альфа', '2012';
+EXEC dbo.ADD_NEW_BOOK N'Буйе', N'Роб', N'Всё из-за мистера Террапта', N'Просвещение', '2013';
+EXEC dbo.ADD_NEW_BOOK N'Васильев', N'Борис', N'А зори здесь тихие', N'Альфа', '2014';
+EXEC dbo.ADD_NEW_BOOK N'Веркин', N'Эдуард', N'Друг апрель', N'Просвещение', '2015';
+EXEC dbo.ADD_NEW_BOOK N'Веркин', N'Эдуард', N'ЧЯП', N'Просвещение', '2016';
+EXEC dbo.ADD_NEW_BOOK N'Веркин', N'Эдуард', N'Кусатель ворон', N'Просвещение', '2017';
+EXEC dbo.ADD_NEW_BOOK N'Веркин', N'Эдуард', N'Облачный полк', N'Просвещение', '2018';
+
+insert into dbo.history_books (EXEMPLAR_ID, ISSUE_DATE, RETURN_DATE)
+VALUES (1, CAST('01.04.2021' as date), CAST('05.05.2021' as date)),
+	   (25, CAST('04.05.2021' as date), CAST('07.05.2021' as date)),
+	   (33, CAST('25.04.2021' as date), CAST('05.05.2021' as date)),
+	   (1, CAST('29.05.2021' as date), null),
+	   (14, CAST('15.04.2021' as date), CAST('17.05.2021' as date)),
+	   (21, CAST('22.04.2021' as date), null),
+	   (14, CAST('18.05.2021' as date), CAST('20.05.2021' as date)),
+	   (14, CAST('22.05.2021' as date), null),
+	   (9, CAST('25.05.2021' as date), CAST('31.05.2021' as date)),
+	   (7, CAST('25.04.2021' as date), CAST('07.05.2021' as date));
+
+update dbo.exemplar_books set available = 0 where ID in (1, 21, 14);
