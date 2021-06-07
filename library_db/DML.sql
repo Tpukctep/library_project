@@ -79,7 +79,6 @@ insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT)
 insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 4, 3, 0);
 insert into dbo.storage_books (NUMBER_ROW, NUMBER_SHELF, NUMBER_SEAT, FILL_SLOT) VALUES (5, 4, 4, 0);
 
-
 EXEC dbo.ADD_NEW_BOOK N'Воронкова', N'Любовь', N'Сын Зевса', N'Альфа', '2004';
 EXEC dbo.ADD_NEW_BOOK N'Воронкова', N'Любовь', N'Повести об Александре Македонском', N'Просвещение', '2005';
 EXEC dbo.ADD_NEW_BOOK N'Гаспаров', N'Михаил', N'Занимательная Греция', N'Альфа', '2006';
