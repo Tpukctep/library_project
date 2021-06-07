@@ -1,27 +1,27 @@
 CREATE DATABASE librarydb;
-
+GO
 use librarydb;
-
+GO
 CREATE SEQUENCE dbo.books_seq 
     START WITH 1  
     INCREMENT BY 1;  
-
+GO
 CREATE TABLE dbo.books (
     ID INT PRIMARY KEY,
  BOOK_TITLE NVARCHAR(200) NOT NULL
 );
-
+GO
 CREATE SEQUENCE dbo.authors_seq 
     START WITH 1  
     INCREMENT BY 1;  
-
+GO
 CREATE TABLE dbo.authors (
     ID INT PRIMARY KEY,
  SURNAME NVARCHAR(200) NOT NULL,
  FIRST_NAME NVARCHAR(200) NOT NULL,
  MIDDLE_NAME NVARCHAR(200)
 );
-
+GO
 CREATE TABLE dbo.authors_books (
  AUTHOR_ID INT,
  BOOK_ID INT,
@@ -29,11 +29,11 @@ CREATE TABLE dbo.authors_books (
     FOREIGN KEY(AUTHOR_ID) REFERENCES authors(ID),
     FOREIGN KEY(BOOK_ID) REFERENCES books(ID)
 );
-
+GO
 CREATE SEQUENCE dbo.storage_books_seq 
     START WITH 1  
     INCREMENT BY 1;  
-
+GO
 CREATE TABLE dbo.storage_books (
     ID INT PRIMARY KEY,
  NUMBER_ROW INT NOT NULL,
@@ -41,11 +41,11 @@ CREATE TABLE dbo.storage_books (
  NUMBER_SEAT INT NOT NULL,
  FILL_SLOT BIT
 );
-
+GO
 CREATE SEQUENCE dbo.exemplar_books_seq 
     START WITH 1  
     INCREMENT BY 1;  
-
+GO
 CREATE TABLE dbo.exemplar_books (
     ID INT PRIMARY KEY,
  BOOK_ID INT,
@@ -56,11 +56,11 @@ CREATE TABLE dbo.exemplar_books (
  FOREIGN KEY(BOOK_ID) REFERENCES books(ID),
  FOREIGN KEY(STORAGE_ID) REFERENCES storage_books(ID)
 );
-
+GO
 CREATE SEQUENCE dbo.history_books_seq 
     START WITH 1  
     INCREMENT BY 1;  
-
+GO
 CREATE TABLE dbo.history_books (
     ID INT PRIMARY KEY,
  EXEMPLAR_ID INT,
@@ -68,13 +68,13 @@ CREATE TABLE dbo.history_books (
  RETURN_DATE DATE,
  FOREIGN KEY(EXEMPLAR_ID) REFERENCES exemplar_books(ID)
 );
-
+GO
 alter table dbo.books add constraint AI_book_id default (next value for dbo.books_seq) for id;
 alter table dbo.authors add constraint AI_author_id default (next value for dbo.authors_seq) for id;
 alter table dbo.exemplar_books add constraint AI_exemplar_book_id default (next value for dbo.exemplar_books_seq) for id;
 alter table dbo.storage_books add constraint AI_storage_book_id default (next value for dbo.storage_books_seq) for id;
 alter table dbo.history_books add constraint AI_history_book_id default (next value for dbo.history_books_seq) for id;
-
+GO
 CREATE PROC ADD_NEW_BOOK (
 	@AUTHOR_SURNAME nvarchar(200),
 	@AUTHOR_FIRST_NAME nvarchar(200),
@@ -157,7 +157,7 @@ BEGIN
 		UPDATE dbo.storage_books set fill_slot = 1 where ID = @ID_storage;
 	END;
 END;
-
+GO
 CREATE VIEW dbo.REPORT_HISTORY_BOOKS
 AS
 select b.BOOK_TITLE
@@ -171,7 +171,7 @@ select b.BOOK_TITLE
   from dbo.books b, dbo.exemplar_books e
   left join dbo.history_books h on e.ID = h.EXEMPLAR_ID
  where b.ID = e.BOOK_ID;
-
+GO
  CREATE PROC Report_history_book (@START_DATE date, @END_DATE date)
 AS
 	select rhb.book_title, rhb.author, rhb.exemplar_count, count(*) issue_in_period
@@ -187,3 +187,29 @@ AS
 	 group by rhb.book_title, rhb.author, rhb.exemplar_count
 	 order by issue_in_period DESC, book_title
  ;
+GO
+CREATE PROC Find_book (@AUTHOR nvarchar(200) = null, @BOOK nvarchar(200) = null)
+AS
+	IF @AUTHOR is null 
+	begin 
+		select TRIM(a.SURNAME + ' ' + a.FIRST_NAME + ' ' + ISNULL(a.MIDDLE_NAME, ' ')) author_book, b.BOOK_TITLE
+		  from dbo.authors a, dbo.authors_books ab, dbo.books b
+		 where a.ID = ab.AUTHOR_ID and ab.BOOK_ID = b.ID
+		   and b.BOOK_TITLE like '%' + @BOOK + '%';
+	end;
+	ELSE IF @BOOK is null
+	begin
+		select TRIM(a.SURNAME + ' ' + a.FIRST_NAME + ' ' + ISNULL(a.MIDDLE_NAME, ' ')) author_book, b.BOOK_TITLE
+		  from dbo.authors a, dbo.authors_books ab, dbo.books b
+		 where a.ID = ab.AUTHOR_ID and ab.BOOK_ID = b.ID
+		   and TRIM(a.SURNAME + ' ' + a.FIRST_NAME + ' ' + ISNULL(a.MIDDLE_NAME, ' ')) like '%' + @AUTHOR + '%';
+	end;
+	else 
+	BEGIN
+		select TRIM(a.SURNAME + ' ' + a.FIRST_NAME + ' ' + ISNULL(a.MIDDLE_NAME, ' ')) author_book, b.BOOK_TITLE
+		  from dbo.authors a, dbo.authors_books ab, dbo.books b
+		 where a.ID = ab.AUTHOR_ID and ab.BOOK_ID = b.ID
+		   and TRIM(a.SURNAME + ' ' + a.FIRST_NAME + ' ' + ISNULL(a.MIDDLE_NAME, ' ')) like '%' + @AUTHOR + '%'
+		   and b.BOOK_TITLE like '%' + @BOOK + '%';
+	end;
+;
